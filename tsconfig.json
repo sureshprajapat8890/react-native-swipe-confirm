@@ -19,7 +19,7 @@
     "verbatimModuleSyntax": true,
     "noEmit": true,
     "paths": {
-      "@lazydev/react-native-swipe-confirm": ["./src/index"]
+      "@sureshprajapat8890/react-native-swipe-confirm": ["./src/index"]
     }
   },
   "include": ["src", "scripts"],

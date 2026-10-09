@@ -22,7 +22,7 @@ import {
 import {
   SwipeConfirm,
   type SwipeConfirmRef,
-} from '@lazydev/react-native-swipe-confirm';
+} from '@sureshprajapat8890/react-native-swipe-confirm';
 
 function Section({
   title,

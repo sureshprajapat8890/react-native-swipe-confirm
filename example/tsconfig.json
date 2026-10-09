@@ -3,7 +3,7 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@lazydev/react-native-swipe-confirm": ["../src/index"]
+      "@sureshprajapat8890/react-native-swipe-confirm": ["../src/index"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"]

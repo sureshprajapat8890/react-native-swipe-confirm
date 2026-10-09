@@ -17,7 +17,7 @@ outright with a render prop.
 ## Installation
 
 ```sh
-npm install @lazydev/react-native-swipe-confirm
+npm install @sureshprajapat8890/react-native-swipe-confirm
 ```
 
 The package declares these as peer dependencies — install them if your app does not have them
@@ -50,7 +50,7 @@ export default function App() {
 ## Usage
 
 ```tsx
-import { SwipeConfirm } from '@lazydev/react-native-swipe-confirm';
+import { SwipeConfirm } from '@sureshprajapat8890/react-native-swipe-confirm';
 
 export function Checkout() {
   return <SwipeConfirm title="Slide to pay" onSwipeSuccess={placeOrder} />;
