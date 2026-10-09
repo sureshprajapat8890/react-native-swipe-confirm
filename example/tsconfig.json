@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@lazydev/react-native-swipe-confirm": ["../src/index"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

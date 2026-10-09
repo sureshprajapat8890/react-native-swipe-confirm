@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Swipe Confirm Example",
+    "slug": "swipe-confirm-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.swipeconfirm"
+    },
+    "android": {
+      "package": "com.example.swipeconfirm"
+    }
+  }
+}
