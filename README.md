@@ -291,21 +291,6 @@ npm run lint
 npm run build    # bob build -> lib/
 ```
 
-## Publishing
-
-This package ships under a placeholder name. Before your first publish:
-
-```sh
-node scripts/rename.js @your-npm-user/react-native-swipe-confirm your-github-user/your-repo
-```
-
-Then set `author` in `package.json`, update the copyright line in `LICENSE`, and run:
-
-```sh
-npm login
-npm publish     # prepublishOnly runs typecheck, tests and the build
-```
-
 ## License
 
 MIT
