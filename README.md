@@ -5,6 +5,10 @@ A swipe-to-confirm ("slide to unlock", "swipe to pay") button for React Native, 
 [Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/). The drag runs
 entirely on the UI thread, so it stays smooth while your JavaScript thread is busy.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sureshprajapat8890/react-native-swipe-confirm/main/docs/demo.gif" width="280" alt="Swipe-to-confirm demo" />
+</p>
+
 Every layer — track, fill, thumb, icon and title — is styleable, and each one can be replaced
 outright with a render prop.
 
