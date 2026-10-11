@@ -6,6 +6,12 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.1.1]
+
+### Added
+
+- Demo GIF in the README.
+
 ## [0.1.0]
 
 ### Added

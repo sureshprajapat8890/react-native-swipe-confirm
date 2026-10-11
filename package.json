@@ -1,6 +1,6 @@
 {
   "name": "@sureshprajapat8890/react-native-swipe-confirm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A fully customizable swipe-to-confirm / slide-to-unlock button for React Native, powered by Reanimated and Gesture Handler.",
   "keywords": [
     "react-native",
