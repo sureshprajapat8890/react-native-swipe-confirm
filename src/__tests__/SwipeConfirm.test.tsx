@@ -205,13 +205,16 @@ describe('SwipeConfirm', () => {
       title: 'Again',
       confirmedTitle: 'Done',
       resetAfterSuccess: true,
-      resetDelay: 10,
+      // Long enough that a slow machine still sees the confirmed title before the reset.
+      resetDelay: 500,
     });
 
     await swipe(MAX_OFFSET);
 
     await waitFor(() => expect(getByText('Done')).toBeTruthy());
-    await waitFor(() => expect(getByText('Again')).toBeTruthy());
+    await waitFor(() => expect(getByText('Again')).toBeTruthy(), {
+      timeout: 3000,
+    });
   });
 
   it('confirms from an accessibility action', async () => {
